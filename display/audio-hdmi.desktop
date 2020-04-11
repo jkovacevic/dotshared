@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Audio - HDMI
+GenericName=Audio - HDMI
+Exec=sh -c "$HOME/dotfiles-shared/display/audio-hdmi.sh"
+Icon=camera
+Type=Application
+StartupNotify=true

@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Startup
+GenericName=Startup script for Linux
+Exec=sh -c "$HOME/dotfiles/startup.sh"
+Icon=camera
+Type=Application
+StartupNotify=true

@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Display - Extend
+GenericName=Display - Extend
+Exec=sh -c "$HOME/dotfiles-shared/display/display-extend.sh"
+Icon=camera
+Type=Application
+StartupNotify=true

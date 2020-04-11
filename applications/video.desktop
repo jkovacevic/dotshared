@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Video
+GenericName=Video script for Linux
+Exec=sh -c "$HOME/dotfiles-shared/bash/video.sh"
+Icon=camera
+Type=Application
+StartupNotify=true

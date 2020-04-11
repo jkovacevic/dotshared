@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Audio - Jabra
+GenericName=Audio - Jabra
+Exec=sh -c "$HOME/dotfiles-shared/display/audio-jabra.sh"
+Icon=camera
+Type=Application
+StartupNotify=true

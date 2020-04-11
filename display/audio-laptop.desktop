@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Audio - Laptop
+GenericName=Audio - Laptop
+Exec=sh -c "$HOME/dotfiles-shared/display/audio-laptop.sh"
+Icon=camera
+Type=Application
+StartupNotify=true
