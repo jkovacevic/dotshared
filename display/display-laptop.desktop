@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=Display - Laptop
 GenericName=Display - Laptop
-Exec=sh -c "$HOME/dotfiles-shared/display/display-laptop.sh"
+Exec=sh -c "$HOME/dotshared/display/display-laptop.sh"
 Icon=camera
 Type=Application
 StartupNotify=true

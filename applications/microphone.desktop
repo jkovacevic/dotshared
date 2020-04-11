@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=Microphone
 GenericName=Microphone script for Linux
-Exec=sh -c "$HOME/dotfiles-shared/bash/microphone.sh"
+Exec=sh -c "$HOME/dotshared/bash/microphone.sh"
 Icon=camera
 Type=Application
 StartupNotify=true

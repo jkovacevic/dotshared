@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=Display - HDMI
 GenericName=Display - HDMI
-Exec=sh -c "$HOME/dotfiles-shared/display/display-hdmi.sh"
+Exec=sh -c "$HOME/dotshared/display/display-hdmi.sh"
 Icon=camera
 Type=Application
 StartupNotify=true
