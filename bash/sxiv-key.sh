@@ -13,8 +13,9 @@ E: open with pinta
 2: copy to hard-disk/info
 3: copy to hard-disk/funny
 4: copy to hard-disk/chan
-5: copy to hard-disk/gif
-6: copy to hard-disk/webm" ;;
+5: copy to hard-disk/neat
+6: copy to hard-disk/gif
+7: copy to hard-disk/webm" ;;
 	"C-d")
 		rm "$file_name"
 		notify-send "Deleted $file_name" ;;
@@ -42,10 +43,14 @@ E: open with pinta
 		cp "$file_name" $output
 		notify-send "Copied $file_name to $output" ;;
 	"C-5")
-		output="$HOME/hard-disk/gif"
+		output="$HOME/hard-disk/neat"
 		cp "$file_name" $output
 		notify-send "Copied $file_name to $output" ;;
 	"C-6")
+		output="$HOME/hard-disk/gif"
+		cp "$file_name" $output
+		notify-send "Copied $file_name to $output" ;;
+	"C-7")
 		output="$HOME/hard-disk/webm"
 		cp "$file_name" $output
 		notify-send "Copied $file_name to $output" ;;
