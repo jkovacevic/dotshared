@@ -15,7 +15,8 @@ E: open with pinta
 4: copy to hard-disk/chan
 5: copy to hard-disk/neat
 6: copy to hard-disk/gif
-7: copy to hard-disk/webm" ;;
+7: copy to hard-disk/webm
+8: copy to hard-disk/food" ;;
 	"C-d")
 		rm "$file_name"
 		notify-send "Deleted $file_name" ;;
@@ -52,6 +53,10 @@ E: open with pinta
 		notify-send "Copied $file_name to $output" ;;
 	"C-7")
 		output="$HOME/hard-disk/webm"
+		cp "$file_name" $output
+		notify-send "Copied $file_name to $output" ;;
+	"C-8")
+		output="$HOME/hard-disk/food"
 		cp "$file_name" $output
 		notify-send "Copied $file_name to $output" ;;
 	esac
