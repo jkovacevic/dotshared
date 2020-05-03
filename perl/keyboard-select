@@ -89,7 +89,7 @@ sub yank_selection {
 
 	$self->selection_beg(1, 0);
 	$self->selection_end(1, 0);
-	system("~/dotshared/python/tidy-clipboard.py &")
+	system("~/dotshared/python/tidy-clipboard.py &");
 }
 
 sub yank_command {
@@ -103,7 +103,7 @@ sub yank_command {
 
 	$self->selection_beg(1, 0);
 	$self->selection_end(1, 0);
-	system("~/dotshared/python/tidy-clipboard.py &")
+	system("~/dotshared/python/tidy-clipboard.py &");
 }
 
 
