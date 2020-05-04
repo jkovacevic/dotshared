@@ -48,4 +48,4 @@ def test(patterns):
         assert match_patterns(patterns, s[0]) == s[1]
     print("Tests passed successfully")
 
-test(patterns)
+# test(patterns)
