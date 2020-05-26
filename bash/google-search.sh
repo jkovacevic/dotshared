@@ -16,11 +16,11 @@ google_search() {
     echo "$q"
 }
 
-option=$(echo "" | rofi -lines 0 -location 6 -yoffset 3 -width 600 -font "DejaVu Sans 12" -dmenu -p "Google: ");
+option=$(echo "" | rofi -show drun -padding 20 -yoffset -400 -lines 0 -dmenu -p "Google");
 q=$(google_search $option)
 if [ ! -z "$q" ]
 then
-      brave http://www.google.co.uk/search?q=$q
+      x-www-browser http://www.google.co.uk/search?q=$q
 else
-      echo "\$Input is empty."
+      notify-send "Google search input is empty."
 fi
