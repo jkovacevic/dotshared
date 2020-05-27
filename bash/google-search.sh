@@ -16,11 +16,9 @@ google_search() {
     echo "$q"
 }
 
-option=$(echo "" | rofi -show drun -padding 20 -yoffset -400 -lines 0 -dmenu -p "Google");
+option=$(echo "" | rofi -show drun -location 6 -width 600 -lines 0 -dmenu -p "G");
 q=$(google_search $option)
 if [ ! -z "$q" ]
 then
       x-www-browser http://www.google.co.uk/search?q=$q
-else
-      notify-send "Google search input is empty."
 fi
