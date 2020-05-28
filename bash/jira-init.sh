@@ -15,7 +15,7 @@ ticket_num=$1
 ticket_num=${ticket_num:l}
 
 jira_home="$HOME/Jira"
-file_name="record"
+file_name="item"
 dir_name="$jira_home/$ticket_num"
 
 if [ ! -d $dir_name ]; then
