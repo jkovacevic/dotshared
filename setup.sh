@@ -32,4 +32,5 @@ create_symlink "$HOME/dotshared/perl/keyboard-select" "/usr/lib/urxvt/perl/keybo
 create_symlink "$HOME/dotshared/bash/sxiv-key.sh" "$HOME/.config/sxiv/exec/key-handler"
 create_symlink "$HOME/dotshared/tmux/tmux.conf" "$HOME/.tmux.conf"
 create_symlink "$HOME/dotshared/python/file_format.py" "$HOME/.local/bin/ff"
+create_symlink "$HOME/dotshared/bash/jira-init.sh" "$HOME/.local/bin/jira-init"
 create_symlink "$HOME/dotshared/python/ipython.py" "$HOME/.ipython/profile_default/ipython_config.py"
