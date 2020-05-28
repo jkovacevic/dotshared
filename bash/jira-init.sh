@@ -1,3 +1,4 @@
+#!/usr/bin/zsh
 find_latest_name() {
     dir_name=$1
     file_name=$2
@@ -27,7 +28,7 @@ find_latest_name $dir_name $file_name
 
 if [ ! -f $FILE_NAME ]; then
     echo "Creating file: $FILE_NAME"
-    echo "<Insert ticket title>:" > $FILE_NAME
+    echo "<Insert ticket title>" > $FILE_NAME
     echo "https://jira.smaato.net/browse/${ticket_num}" >> $FILE_NAME
     subl $FILE_NAME
 fi;
