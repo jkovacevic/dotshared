@@ -16,7 +16,7 @@ google_search() {
     echo "$q"
 }
 
-option=$(echo "" | rofi -show drun -location 6 -width 600 -lines 0 -dmenu -p "G");
+option=$(echo "" | rofi -show drun -location 2 -width 800 -lines 0 -dmenu -p "LF");
 q=$(google_search $option)
 if [ ! -z "$q" ]
 then
