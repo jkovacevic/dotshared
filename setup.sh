@@ -26,7 +26,8 @@ create_symlink "$HOME/dotshared/applications/ocr.desktop" "$HOME/.local/share/ap
 create_symlink "$HOME/dotshared/applications/screenshot.desktop" "$HOME/.local/share/applications/screenshot.desktop"
 create_symlink "$HOME/dotshared/applications/television.desktop" "$HOME/.local/share/applications/television.desktop"
 create_symlink "$HOME/dotshared/applications/video.desktop" "$HOME/.local/share/applications/video.desktop"
-create_symlink "$HOME/dotshared/applications/startup.desktop" "$HOME/.local/share/applications/startup.desktop"
+create_symlink "$HOME/dotshared/applications/startup-laptop.desktop" "$HOME/.local/share/applications/startup-laptop.desktop"
+create_symlink "$HOME/dotshared/applications/startup-keyboard.desktop" "$HOME/.local/share/applications/startup-keyboard.desktop"
 
 create_symlink "$HOME/dotshared/perl/keyboard-select" "/usr/lib/urxvt/perl/keyboard-select"
 create_symlink "$HOME/dotshared/bash/sxiv-key.sh" "$HOME/.config/sxiv/exec/key-handler"
