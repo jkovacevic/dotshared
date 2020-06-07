@@ -1,7 +1,7 @@
 [Desktop Entry]
-Name=Startup
+Name=Startup Laptop
 GenericName=Startup script for Linux
-Exec=sh -c "$HOME/dotfiles/startup.sh"
+Exec=sh -c "$HOME/dotfiles/startup.sh -l"
 Icon=camera
 Type=Application
 StartupNotify=true
