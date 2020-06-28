@@ -2,6 +2,6 @@
 Name=Display - Laptop
 GenericName=Display - Laptop
 Exec=sh -c "$HOME/dotshared/display/display-laptop.sh"
-Icon=camera
+Icon=/home/jk/.icon/icon-console.png
 Type=Application
 StartupNotify=true

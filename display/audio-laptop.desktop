@@ -2,6 +2,6 @@
 Name=Audio - Laptop
 GenericName=Audio - Laptop
 Exec=sh -c "$HOME/dotshared/display/audio-laptop.sh"
-Icon=camera
+Icon=/home/jk/.icon/icon-console.png
 Type=Application
 StartupNotify=true

@@ -2,6 +2,6 @@
 Name=Microphone
 GenericName=Microphone script for Linux
 Exec=sh -c "$HOME/dotshared/bash/microphone.sh"
-Icon=camera
+Icon=/home/jk/.icon/icon-console.png
 Type=Application
 StartupNotify=true

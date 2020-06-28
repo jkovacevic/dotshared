@@ -2,6 +2,6 @@
 Name=Display - HDMI
 GenericName=Display - HDMI
 Exec=sh -c "$HOME/dotshared/display/display-hdmi.sh"
-Icon=camera
+Icon=/home/jk/.icon/icon-console.png
 Type=Application
 StartupNotify=true

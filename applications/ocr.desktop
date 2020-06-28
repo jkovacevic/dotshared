@@ -2,6 +2,6 @@
 Name=OCR-EN
 GenericName=OCR for Linux
 Exec=sh -c "$HOME/dotshared/bash/ocr.sh"
-Icon=camera
+Icon=/home/jk/.icon/icon-console.png
 Type=Application
 StartupNotify=true

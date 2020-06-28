@@ -2,6 +2,6 @@
 Name=Screenshot
 GenericName=Screenshot script for Linux
 Exec=sh -c "$HOME/dotshared/bash/screenshot.sh"
-Icon=camera
+Icon=/home/jk/.icon/icon-console.png
 Type=Application
 StartupNotify=true
