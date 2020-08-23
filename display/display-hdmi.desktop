@@ -1,7 +1,0 @@
-[Desktop Entry]
-Name=Display - HDMI
-GenericName=Display - HDMI
-Exec=sh -c "$HOME/dotshared/display/display-hdmi.sh"
-Icon=/home/jk/.icon/icon-console.png
-Type=Application
-StartupNotify=true
