@@ -3,4 +3,7 @@
     "Ctrl-Left":"WordLeft",
     "Ctrl-Shift-Right": "SelectWordRight",
     "Ctrl-Shift-Left": "SelectWordLeft",
+    "Alt-Backspace": "DeleteWordLeft",
+    "Alt-Up": "MoveLinesUp",
+    "Alt-Down": "MoveLinesDown"
 }
