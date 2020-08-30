@@ -24,7 +24,7 @@
  
 [frame]
     width = 1
-    color = "#00ffff"
+    color = "#4dffff"
  
 [shortcuts]
     close_all = ctrl+shift+space
