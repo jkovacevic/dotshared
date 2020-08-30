@@ -29,6 +29,10 @@ create_symlink "$HOME/dotshared/applications/video.desktop" "$HOME/.local/share/
 create_symlink "$HOME/dotshared/applications/startup-laptop.desktop" "$HOME/.local/share/applications/startup-laptop.desktop"
 create_symlink "$HOME/dotshared/applications/startup-keyboard.desktop" "$HOME/.local/share/applications/startup-keyboard.desktop"
 
+create_symlink "$HOME/dotshared/themes/rofi-theme-Monokai.rasi" "$HOME/.config/rofi/rofi-theme-Monokai.rasi"
+create_symlink "$HOME/dotshared/themes/tasks-monokai.hidden-tmTheme" "$HOME/.config/sublime-text-3/Packages/PlainTasks/tasks-monokai.hidden-tmTheme"
+create_symlink "$HOME/dotshared/themes/ayu-dark.sublime-color-scheme" "$HOME/.config/sublime-text-3/Packages/ayu/ayu-dark.sublime-color-scheme"
+
 create_symlink "$HOME/dotshared/perl/keyboard-select" "/usr/lib/urxvt/perl/keyboard-select"
 create_symlink "$HOME/dotshared/bash/sxiv-key.sh" "$HOME/.config/sxiv/exec/key-handler"
 create_symlink "$HOME/dotshared/tmux/tmux.conf" "$HOME/.tmux.conf"
