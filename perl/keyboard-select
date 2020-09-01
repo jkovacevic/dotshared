@@ -89,6 +89,7 @@ sub yank_selection {
 
 	$self->selection_beg(1, 0);
 	$self->selection_end(1, 0);
+	log_message("Copying to clipboard");
 	system("~/dotshared/python/tidy-clipboard.py &");
 }
 
@@ -103,6 +104,7 @@ sub yank_command {
 
 	$self->selection_beg(1, 0);
 	$self->selection_end(1, 0);
+	log_message("Copying to clipboard");
 	system("~/dotshared/python/tidy-clipboard.py &");
 }
 
