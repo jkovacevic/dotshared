@@ -23,12 +23,9 @@
 #   y/Return:   Copy selection to primary buffer, Return: deactivate afterwards
 #   q/Escape:   Deactivate keyboard selection mode
 
-sub log_message {
+sub notify_message {
 	my ($message) = @_;
-	my $filename = '/tmp/_.log';
-	open($fh, '>>', $filename);
-	print $fh $message, "\n";
-	close $fh;
+	system("notify-send '" . $message . "'");
 	()
 }
 
@@ -89,22 +86,21 @@ sub yank_selection {
 
 	$self->selection_beg(1, 0);
 	$self->selection_end(1, 0);
-	log_message("Copying to clipboard");
+	notify_message("Copying selection to clipboard");
 	system("~/dotshared/python/tidy-clipboard.py &");
 }
 
 sub yank_command {
 	my ($self, $event) = @_;
-	my ($br, $bc, $er, $ec) = calc_span($self);
-
-	$self->selection_beg($er, 0);
-	$self->selection_end($er, find_max_line_column($self, $br, $er));
+	my ($cr, $cc) = $self->screen_cur();
+	$self->selection_beg($cr, 0);
+	$self->selection_end($cr, 1000);
 	$self->selection_make($event->{time});
 	$self->selection_grab($event->{time}, 1);
 
 	$self->selection_beg(1, 0);
 	$self->selection_end(1, 0);
-	log_message("Copying to clipboard");
+	notify_message("Copying line to clipboard");
 	system("~/dotshared/python/tidy-clipboard.py &");
 }
 
