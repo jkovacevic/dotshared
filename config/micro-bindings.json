@@ -6,8 +6,6 @@
     "Ctrl-Left": "WordLeft",
     "Ctrl-Right": "WordRight",
     "Ctrl-Shift-Left": "SelectWordLeft",
-    "[1;6D": "SelectWordLeft",
-    "[1;6C": "SelectWordRight",
     "Ctrl-Shift-Right": "SelectWordRight",
     "CtrlUnderscore": "lua:comment.comment"
 }
